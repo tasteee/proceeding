@@ -1,0 +1,40 @@
+/* Dark theme */
+/* ----------- */
+/* ----------- */
+/* ----------- */
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: var(--black);
+		--foreground: var(--white);
+	}
+
+	html {
+		color-scheme: dark;
+	}
+}
+
+/* Light theme */
+/* ----------- */
+/* ----------- */
+/* ----------- */
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--background: var(--white);
+		--foreground: var(--black);
+	}
+
+	html {
+		color-scheme: light;
+	}
+}
+
+:root {
+	--background: var(--black);
+	--foreground: var(--white);
+}
+
+html {
+	color-scheme: dark;
+}

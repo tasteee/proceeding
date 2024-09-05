@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: unset;
+	border: unset;
+	cursor: unset;
+}
+
+html,
+body {
+	max-width: 100vw;
+	max-height: 100vh;
+	overflow-x: hidden;
+}
+
+body {
+	--fontHeader: var(--font-geist-sans);
+	--fontBody: var(--font-geist-sans);
+	--fontMono: var(--font-geist-mono);
+	font-family: var(--fontBody);
+	color: var(--foreground);
+	background: var(--background);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a,
+:any-link {
+	color: inherit;
+	text-decoration: none;
+}

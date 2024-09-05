@@ -1,0 +1,103 @@
+/* Colors      */
+/* ----------- */
+/* ----------- */
+/* ----------- */
+
+:root {
+	--black: #100f10;
+	--white: #f5f5f6;
+	--yin: #a164f0;
+	--yang: #88d70b;
+
+	--yin50: #f9f5ff;
+	--yin100: #f1e9fe;
+	--yin200: #e6d7fd;
+	--yin300: #d3b8fa;
+	--yin400: #b88af6;
+	--yin500: var(--yin);
+	--yin600: #863ce1;
+	--yin700: #712ac6;
+	--yin800: #6127a2;
+	--yin900: #502182;
+	--yin950: #330b60;
+
+	--yinA1: rgba(var(--yin500), 0.1);
+	--yinA2: rgba(var(--yin500), 0.2);
+	--yinA3: rgba(var(--yin500), 0.3);
+	--yinA4: rgba(var(--yin500), 0.4);
+	--yinA5: rgba(var(--yin500), 0.5);
+	--yinA6: rgba(var(--yin500), 0.6);
+	--yinA7: rgba(var(--yin500), 0.7);
+	--yinA8: rgba(var(--yin500), 0.8);
+	--yinA9: rgba(var(--yin500), 0.9);
+
+	--yang50: #f8ffe6;
+	--yang100: #e7ffb3;
+	--yang200: #dcff97;
+	--yang300: #c2fb5b;
+	--yang400: #a8f12a;
+	--yang500: var(--yang);
+	--yang600: #69ac04;
+	--yang700: #4f8308;
+	--yang800: #41670d;
+	--yang900: #375710;
+	--yang950: #1b3102;
+
+	--yangA1: rgba(var(--yang500), 0.1);
+	--yangA2: rgba(var(--yang500), 0.2);
+	--yangA3: rgba(var(--yang500), 0.3);
+	--yangA4: rgba(var(--yang500), 0.4);
+	--yangA5: rgba(var(--yang500), 0.5);
+	--yangA6: rgba(var(--yang500), 0.6);
+	--yangA7: rgba(var(--yang500), 0.7);
+	--yangA8: rgba(var(--yang500), 0.8);
+	--yangA9: rgba(var(--yang500), 0.9);
+
+	--gray50: var(--white);
+	--gray100: #e6e6e7;
+	--gray200: #cfd0d2;
+	--gray300: #adaeb3;
+	--gray400: #84858c;
+	--gray500: #696a71;
+	--gray600: #5a5b60;
+	--gray700: #4c4d52;
+	--gray800: #434347;
+	--gray900: #3b3b3e;
+	--gray950: var(--black);
+}
+
+/* Space       */
+/* ----------- */
+/* ----------- */
+/* ----------- */
+
+:root {
+	--spaceRoot: 0.25rem;
+	--space0: 0rem;
+	--space1: calc(var(--spaceRoot) * 1); /* 0.25rem */
+	--space2: calc(var(--spaceRoot) * 2); /* 0.5rem */
+	--space3: calc(var(--spaceRoot) * 4); /* 1rem */
+	--space4: calc(var(--spaceRoot) * 6); /* 1.5rem */
+	--space5: calc(var(--spaceRoot) * 8); /* 2rem */
+	--space6: calc(var(--spaceRoot) * 12); /* 3rem */
+	--space7: calc(var(--spaceRoot) * 16); /* 4rem */
+	--space8: calc(var(--spaceRoot) * 24); /* 6rem */
+	--space9: calc(var(--spaceRoot) * 32); /* 8rem */
+	--space10: calc(var(--spaceRoot) * 40); /* 10rem */
+}
+
+/* 
+--headerFont
+--bodyFont
+--monoFont
+(font scale with each)
+(example usage with each)
+(example pairings with each)
+(example elements with each i.e button, input + label, etc.)
+
+--white
+--black
+--yin (50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950)
+--yang (50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950)
+--gray (50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950)
+*/
